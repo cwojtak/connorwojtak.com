@@ -1,0 +1,39 @@
+
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80 
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteRule ^(.*)$ https://connorwojtak.com/$1 [R,L]
+
+ErrorDocument 400 /source_code/error/400.php
+ErrorDocument 401 /source_code/error/401.php
+ErrorDocument 402 /source_code/error/402.php
+ErrorDocument 403 /source_code/error/403.php
+ErrorDocument 404 /source_code/error/404.php
+ErrorDocument 405 /source_code/error/405.php
+ErrorDocument 406 /source_code/error/406.php
+ErrorDocument 407 /source_code/error/407.php
+ErrorDocument 408 /source_code/error/408.php
+ErrorDocument 409 /source_code/error/409.php
+ErrorDocument 410 /source_code/error/410.php
+ErrorDocument 411 /source_code/error/411.php
+ErrorDocument 412 /source_code/error/412.php
+ErrorDocument 413 /source_code/error/413.php
+ErrorDocument 414 /source_code/error/414.php
+ErrorDocument 415 /source_code/error/415.php
+ErrorDocument 416 /source_code/error/416.php
+ErrorDocument 417 /source_code/error/417.php
+ErrorDocument 422 /source_code/error/422.php
+ErrorDocument 423 /source_code/error/423.php
+ErrorDocument 424 /source_code/error/424.php
+
+ErrorDocument 500 /source_code/error/500.php
+ErrorDocument 501 /source_code/error/501.php
+ErrorDocument 502 /source_code/error/502.php
+ErrorDocument 503 /source_code/error/503.php
+ErrorDocument 504 /source_code/error/504.php
+ErrorDocument 505 /source_code/error/505.php
+ErrorDocument 506 /source_code/error/506.php
+ErrorDocument 507 /source_code/error/507.php
+ErrorDocument 510 /source_code/error/510.php

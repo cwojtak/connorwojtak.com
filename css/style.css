@@ -1,0 +1,147 @@
+body {
+    background:
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color: #05008C;
+    background-size:16px 16px;
+    color:whitesmoke;
+    font-size:16pt;
+}
+
+#header {
+    background-color: #007CBD;
+    border-style:solid;
+    border-color:black;
+    border-width:6px;
+    padding:5px;
+}
+
+#body {
+    width:50%;
+}
+
+#sidebar {
+    background-color: #007CBD;
+    border-style:solid;
+    border-color:black;
+    border-width:6px;
+    padding:5px;
+    position:absolute;
+    right:8px;
+    bottom:0px;
+    top:225px;
+    width:115px;
+}
+
+sidebar a {
+    display:block;
+    width:60px;
+}
+
+a:link {
+    color:red;
+    text-decoration:underline;
+}
+
+a:visited {
+    color:white;
+    text-decoration:line-through;
+}
+
+a:hover {
+    color:red;
+    text-decoration:underline;
+}
+
+a:active {
+    color:white;
+    text-decoration:none;
+}
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+img {
+    width:200px;
+    height:200px;
+}
+
+#error {
+    color:red;
+}
+
+.discussion-container {
+    width:90%;
+}
+
+.comment-container {
+    border-style:solid;
+    border-color:gray;
+    border-width:1px;
+    background-color:white;
+    color:darkgray;
+}
+
+.subpost-container {
+    border-style:solid;
+    border-color:black;
+    border-top:2px;
+    background-color: #007CBD;
+    color:white;
+}
+
+h1 {
+    font-size:40pt;
+    text-shadow:
+        1px 1px 0 #CCC,
+        2px 2px 0 #CCC,
+        3px 3px 0 #444,
+        4px 4px 0 #444,
+        5px 5px 0 #444,
+        6px 6px 0 #444;
+}
+h2 {
+    font-size:32pt;
+    text-shadow:
+        1px 1px 0 #CCC,
+        2px 2px 0 #CCC,
+        3px 3px 0 #444,
+        4px 4px 0 #444,
+        5px 5px 0 #444,
+        6px 6px 0 #444;
+}
+h3 {
+    font-size:24pt;
+    text-shadow:
+        1px 1px 0 #CCC,
+        2px 2px 0 #CCC,
+        3px 3px 0 #444,
+        4px 4px 0 #444,
+        5px 5px 0 #444,
+        6px 6px 0 #444;
+}
+h4 {
+    color: #CCC;
+    text-shadow:
+        1px 1px 0 #007CBD;
+}
+
+@media (max-width: 300px) {
+    html { font-size: 70%; }
+}
+
+@media (min-width: 500px) {
+    html { font-size: 80%; }
+}
+
+@media (min-width: 700px) {
+    html { font-size: 120%; }
+}
+
+@media (min-width: 1200px) {
+    html { font-size: 200%; }
+}

@@ -20,8 +20,6 @@ require_once '/home/connorwo/protected/password_protector.php';
                Feel free to navigate on the side to find more about me or look at
                some of my projects, and leave comments on what you think or of problems you find. </p>
             <h2>Quick Links</h2>
-            <h4>The Unofficial MST3K Deep Hurting Button</h4>
-            <p><a href="deephurting.php">Deep Hurting Button</a></p>
             <h4>CON: A programming language</h4>
             <p><a href="con_lang.php">CON</a></p>
         </div>

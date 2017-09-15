@@ -21,6 +21,8 @@ require_once '/home/connorwo/public_html/source_code/page_content_provider.php';
             check them out if you want. The majority of the website is also on Github
             to see. Try checking out the most painful Javascript experience I
             have ever had with my number guessing game under Games.</p>
+            <hr id="styleline1">
+            <img src="../files/connor.jpg" alt="Picture of me" id="conimage" width=30% height=30%>
         </div>
     </body>
 </html>
